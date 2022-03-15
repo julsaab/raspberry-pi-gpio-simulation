@@ -3,7 +3,7 @@
 ## Introduction
 
 This project was created to allow students to simulate General Purpose Input Output (GPIO) triggers on their PC or on a
-virtual machine, without the need of having an actual Raspberry Pi. So, simply put, it's Raspberry Pi GPIO Simulator
+virtual machine, without the need of having an actual Raspberry Pi. So, simply put, it's a Raspberry Pi GPIO Simulator
 written in Java.
 **This project depends on [Pi4J](https://github.com/Pi4J/pi4j-v1).**
 
