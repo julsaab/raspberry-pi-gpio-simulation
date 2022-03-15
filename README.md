@@ -1,4 +1,4 @@
-# GUI Simulated GPIO
+# Raspberry Pi GUI GPIO Simulator (Java)
 
 ## Introduction
 
