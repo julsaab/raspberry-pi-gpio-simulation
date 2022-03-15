@@ -3,7 +3,9 @@
 ## Introduction
 
 This project was created to allow students to simulate General Purpose Input Output (GPIO) triggers on their PC or on a
-virtual machine, without the need of having an actual Raspberry Pi. This project depends on Pi4J.
+virtual machine, without the need of having an actual Raspberry Pi. So, simply put, it's Raspberry Pi GPIO Simulator
+written in Java.
+**This project depends on [Pi4J](https://github.com/Pi4J/pi4j-v1).**
 
 ## Usage
 
@@ -11,10 +13,10 @@ There was one idea in mind, it was to make as easy as possible for you to get st
 simulate GPIO correctly:
 
 1. Dependency
-    * Go to build.gradle
-    * In the dependencies section, paste this line: <b>implementation group: 'com.pi4j', name: 'pi4j-core', version: '
-      1.3'</b>
-    * Now click on the "Gradle" tab on the right toolbar at the top
+   * Go to build.gradle
+   * In the dependencies section, paste this
+     line: <b>[implementation group: 'com.pi4j', name: 'pi4j-core', version: '1.3'](https://github.com/Pi4J/pi4j-v1) </b>
+   * Now click on the "Gradle" tab on the right toolbar at the top
     * Then click on "Reload All Gradle Projects" button
 2. The Simulator
     * Copy the Java file "GUISimulatedGpioProvider.java"
